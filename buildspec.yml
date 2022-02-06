@@ -14,10 +14,6 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date` and started Apache server
-      - curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-      - unzip awscliv2.zip
-      - ./aws/install
-      - aws s3 cp --recursive --acl public-read ./build s3://awscodepipeline-s3-bucket/ 
 artifacts:
   files:
     - "**/*"
