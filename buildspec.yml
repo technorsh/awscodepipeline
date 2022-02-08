@@ -15,7 +15,7 @@ phases:
     commands:
       - echo Build completed on `date` and started Apache server
        
-      - aws s3 cp --recursive --acl public-read-write ./build s3://awscodepipeline-s3-bucket/ 
+      #- aws s3 cp --recursive --acl public-read-write ./build s3://awscodepipeline-s3-bucket/ 
       
 artifacts:
   files:
