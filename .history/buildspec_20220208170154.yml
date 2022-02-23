@@ -1,4 +1,4 @@
-version: 0.0
+version: 0.2
 
 phases:
   pre_build:
@@ -18,10 +18,7 @@ phases:
       #- aws s3 cp --recursive --acl public-read-write ./build s3://awscodepipeline-s3-bucket/ 
       
 artifacts:
-  type: zip
-  paths:
-    - '*'
-  # files:
-  #   - "**/*"
-  # discard-paths: no
-  # base-directory : build
+  files:
+    - "**/*"
+  discard-paths: no
+  base-directory : build

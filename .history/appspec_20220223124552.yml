@@ -13,6 +13,6 @@ hooks:
     - location: /scripts/afterinstall.sh
       timeout: 100
   ApplicationStart:
-    - location: /scripts/onstart.sh
+    - location: /scripts/applicationstart.sh
       timeout: 100
     

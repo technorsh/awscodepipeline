@@ -19,9 +19,7 @@ phases:
       
 artifacts:
   type: zip
-  paths:
-    - '*'
-  # files:
-  #   - "**/*"
-  # discard-paths: no
-  # base-directory : build
+  files:
+    - "**/*"
+  discard-paths: no
+  base-directory : build

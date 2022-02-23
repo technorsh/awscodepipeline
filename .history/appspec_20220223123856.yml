@@ -1,18 +1,12 @@
 version: 0.0
 os: linux
-
 files:
   - source: /
     destination: /home/app
-
 hooks:
-  BeforeInstall: 
-    - location: /scripts/beforeinstall.sh
-      timeout: 100
-  AfterInstall: 
+  AfterInstall:
     - location: /scripts/afterinstall.sh
       timeout: 100
   ApplicationStart:
-    - location: /scripts/onstart.sh
+    - location: /scripts/applicationstart.sh
       timeout: 100
-    
