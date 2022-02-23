@@ -10,7 +10,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <p>
-          Pipeline created by Rahul Sharma
+          Pipeline created by ~ Rahul Sharma
         </p>
       </header>
     </div>
