@@ -11,7 +11,7 @@ hooks:
       timeout: 100
   AfterInstall: 
     - location: scripts/afterinstall.sh
-      timeout: 100
+      timeout: 300
   ApplicationStart:
     - location: scripts/onstart.sh
       timeout: 100
