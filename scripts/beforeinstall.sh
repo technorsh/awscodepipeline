@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo su
 curl -sL https://rpm.nodesource.com/setup_17.x | sudo bash -
 yum -y install nodejs npm --skip-broken
 npm install pm2 -g
