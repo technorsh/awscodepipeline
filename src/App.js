@@ -12,14 +12,6 @@ function App() {
         <p>
           Pipeline created by Rahul Sharma
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React by ~ Rahul Sharma :)
-        </a>
       </header>
     </div>
   );
